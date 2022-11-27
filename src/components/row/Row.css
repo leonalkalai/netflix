@@ -1,0 +1,99 @@
+.row_wrapper {
+    color: #fff;
+    margin-bottom: 70px;
+    z-index: 3;
+    margin-left: 5vw;
+}
+
+.row_title {
+    font-size: 1.4vw;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.row_card {
+    display: flex;
+    align-items: center;
+    height: 230px;
+    color: #fff;
+    overflow-x: scroll;
+}
+
+.row_card::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slick-arrow.slick-prev, .slick-arrow.slick-next{
+        display: inline-block;
+        background-color: #2a2f2f;
+        color: #fff;
+        border: none;
+        /* top: 25%; */
+        padding: 1.5em 1.6em;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: inherit; 
+        position: absolute;
+        bottom: 0;
+        transition: background-color 0.5s ease-out;    
+}
+
+.slick-arrow.slick-prev{
+    left: 0;
+    z-index: 4;
+}
+.slick-arrow.slick-next{
+    right: 2%;
+    z-index: 4;
+}
+.slick-arrow.slick-prev:focus {
+    outline: none;
+  }
+  
+  .slick-arrow.slick-prev:hover {
+    background-color: #2a2f2f;
+  }
+
+  .slick-arrow.slick-next:focus {
+    outline: none;
+  }
+
+  .slick-arrow.slick-next:hover {
+    background-color: #2a2f2f;
+  }
+  
+  .slick-slider button {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: #2a2f2f;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+  
+  .controls button:hover {
+    background-color: #2a2f2f;
+  }
+  
+  .controls button:nth-child(1) {
+    margin-right: 2rem;
+  }
+
+  .slick-slide{
+    min-width: 15vw;
+  }
+
+  a{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    color: aliceblue;
+    width: 100%;
+  }
