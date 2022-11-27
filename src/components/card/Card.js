@@ -46,8 +46,6 @@ export default function Card(props) {
     }
   };
 
-  if(props.id=='') console.log('test')
-  //console.log(props.id + " " +props.title);
   
   useEffect(() => {
     fetchURL();
